@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main(int num,int n)
+{
+int i;
+for(i=1;i<=n;i++)
+{
+printf("%d*%d=%d\n",num,i,num*i);
+}
+}
+int main()
+{
+scanf("%d",&num);
+scanf("%d",&n);
+mul(num,n);
+return 0;
+}
